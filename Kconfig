@@ -1,0 +1,9 @@
+#
+# Led demo configuration
+#
+
+menuconfig LED_DEMO
+	tristate "Led demo"
+    default y
+	help
+	  This is simple led demo. This allows configuring various through configfs
